@@ -1,9 +1,223 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Welcome to web training</title>
-    </head>
-        <body>
+
+<head>
+    <title>Welcome to web training</title>
+
+    <style>
+        h1 {
+            color: aqua;
+            font-size: xx-large;
+        }
+
+        .forecast {
+            margin: 0;
+            padding: .3rem;
+            background-color: #eee;
+            font: 1rem 'Fira Sans', sans-serif;
+        }
+
+        .forecast>h1,
+        .day-forecast {
+            margin: .5rem;
+            padding: .3rem;
+            font-size: 1.2rem;
+        }
+
+        .day-forecast {
+            background: right/contain content-box border-box no-repeat url('/media/examples/rain.svg') white;
+        }
+
+        .day-forecast>h2,
+        .day-forecast>p {
+            margin: .2rem;
+            font-size: 1rem;
+        }
+
+        aside {
+            width: 40%;
+            padding-left: .5rem;
+            margin-left: .5rem;
+            float: right;
+            box-shadow: inset 5px 0 5px -5px #29627e;
+            font-style: italic;
+            color: #29627e;
+        }
+
+        aside>p {
+            margin: .5rem;
+        }
+
+        p {
+            font-family: 'Fira Sans', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="page-header">
+        <h1>Cute Puppies Express!</h1>
+    </header>
+    <main>
+        <section>
+            <h1>figure tag</h1>
+        <figure>
+            <img src="https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111-1500x1000.jpg"
+                 alt="nature">
+            <figcaption>nature image</figcaption>
+        </figure>
+
+        <h1> using img tag</h1>
+        <img src="https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111-1500x1000.jpg"
+        alt="nature" 
+        width="500"
+        height="500">
+
+        <img src="image/nature1.png" title="natur image" alt="nature" width="200"
+        height="200">
+     
+        <section>
+
+            <section>
+                <h1>using pre tag</h1>
+                <pre>
+                    HII 
+                        priya   
+                             p 
+                              shetty
+                </pre>
+            </section>
+            
+        <section>
             <h1>HII EVERYONE</h1>
-        </body>
+
+            <div>SPAN TAG</div>
+            <span>The span tag is an inline container used to mark up a part of a text,or a part of a document.
+                The span tag is easily styled by CSS or
+                manipulated with JavaScript using the class or id attribute.
+            </span>
+            <br><br>
+            <div> P TAG</div>
+            <p>
+                In html
+                The p tag defines a paragraph.
+                Browsers automatically add a single blank line before and after each element.
+            </p>
+        </section>
+        <br>
+
+        <section>
+            <h1>CONTACT US:</h1>
+            <address>
+                <a title="Hello My Email" href="mailto:priyapshetty007@gmail.com"> priyapshetty007@gmail.com</a>
+                <br>
+                <a href="tel:+13115552368">9876543210</a>
+            </address>
+        </section>
+
+        <section>
+            <h1>ARTICAL TAG</h1>
+            <article class="forecast" title="asdsad">
+                <h1>Weather forecast for Seattle</h1>
+                <article class="day-forecast">
+                    <h2>03 March 2018</h2>
+                    <p>Rain.</p>
+                </article>
+                <article class="day-forecast">
+                    <h2>04 March 2018</h2>
+                    <p>Periods of rain.</p>
+                </article>
+                <article class="day-forecast">
+                    <h2>05 March 2018</h2>
+                    <p>Heavy rain.</p>
+                </article>
+            </article>
+        </section>
+
+        <section>
+
+            <h1>ASIDE TAGS</h1>
+
+            <p>Salamanders are a group of amphibians with a lizard-like appearance, including short legs and a tail in
+                both
+                larval and adult forms.</p>
+
+            <aside>
+                <p>The Rough-skinned Newt defends itself with a deadly neurotoxin.</p>
+            </aside>
+
+            <p>Several species of salamander inhabit the temperate rainforest of the Pacific Northwest, including the
+                Ensatina,
+                the Northwestern Salamander and the Rough-skinned Newt. Most salamanders are nocturnal, and hunt for
+                insects,
+                worms and other small creatures.</p>
+        </section>
+
+        <section>
+            <p>HEADING TAG H1 TO H6</p>
+            <h1>H1 tag</h1>
+            <h2>H2 tag</h2>
+            <h3>H3 tag</h3>
+            <h4>H4 tag</h4>
+            <h5>H5 tag</h5>
+            <h6>H6 tag</h6>
+        </section>
+
+        <section>
+            <H1>ORDER LIST</H1>
+            <ol>
+                <li>priya</li>
+                <li>diya</li>
+            </ol>
+            </ol>
+        </section>
+
+        <section>
+            <H1>UNORDER LIST</H1>
+            <ul>
+                <li>priya</li>
+                <li>diya</li>
+                </ol>
+            </ul>
+        </section>
+
+        <section>
+            <h1>nav tag</h1>
+            <nav>
+                <ol>
+                    <li>
+                        <a href="https://google.com" target="_blank">Google</a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="https://www.torryharris.com/">torryharris</a>
+                    </li>
+                </ol>
+            </nav>
+             
+        </section>
+ 
+        <h1>inline element</h1>
+        <div>The following span is an <span class="highlight">inline element</span>;
+            its background has been colored to display both the beginning and end of
+            the inline element's influence.</div>
+            
+            <h1>block element</h1>
+            <div>The following paragraph is a <p class="highlight">block-level element;</p>
+                its background has been colored to display both the beginning and end of
+                the block-level element's influence.</div>  
+
+
+
+
+    </main>
+
+    <footer>
+        <p>© 2022 THBS</p>
+    </footer>
+</body>
+
 </html>
