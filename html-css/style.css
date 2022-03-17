@@ -7,3 +7,33 @@ body{
     font-size: xx-large;
 
 }
+
+#about-us{
+
+    border: 6px dashed forestgreen;
+
+}
+
+#contact-us{
+
+    border: 6px dashed rgb(12, 192, 216);
+
+}
+
+.thbsp1{
+    font-family: cursive;
+    font-size: medium;
+    font-style: italic;
+    color: aquamarine;
+}
+
+.thbsp2{
+    font-family: cursive;
+    font-size: xx-small;
+   
+ color: black;
+    background-color: aqua;
+}
+
+
+
