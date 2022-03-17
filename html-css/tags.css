@@ -1,0 +1,32 @@
+body{
+    background-color: antiquewhite;
+    border: 3px solid red;
+}
+h1{
+    font-family: cursive;
+    font-size: xx-large;
+    color: #000;
+}
+
+.ptag{
+    font-family: monospace;
+    font-size: larger;
+    color: blue;
+}
+
+#head{
+    border: 1px dotted burlywood;
+    background-color: beige;
+}
+
+#foot{
+    border:1px dotted burlywood;
+    background-color: rgb(235, 235, 165);
+    text-align: center;
+}
+
+.times{
+    text-size-adjust: 5px;
+
+}
+
