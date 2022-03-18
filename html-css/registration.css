@@ -1,4 +1,14 @@
+body{
+    background-color: beige;
+}
+
 form{
-    border: 2px double red;
+    border: 3px double rgb(255, 238, 0);
+}
+
+.form-example{
+    border: 1px grey solid;
+    padding: 25px;
+
 }
 
