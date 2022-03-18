@@ -3,12 +3,13 @@ body{
 }
 
 form{
-    border: 3px double rgb(255, 238, 0);
+    border: 2px double rgb(255, 238, 0);
 }
 
 .form-example{
     border: 1px grey solid;
     padding: 25px;
+    margin: 25px;
 
 }
 
