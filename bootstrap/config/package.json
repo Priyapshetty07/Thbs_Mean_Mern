@@ -1,0 +1,24 @@
+{
+  "name": "thbs_learn",
+  "version": "1.0.0",
+  "description": "demo for bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Priyapshetty07/Thbs_Mean_Mern.git"
+  },
+  "author": "priya p shetty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Priyapshetty07/Thbs_Mean_Mern/issues"
+  },
+  "homepage": "https://github.com/Priyapshetty07/Thbs_Mean_Mern#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "moment": "^2.29.1",
+    "react": "^17.0.2"
+  }
+}
