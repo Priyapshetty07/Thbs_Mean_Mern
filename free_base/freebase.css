@@ -232,3 +232,22 @@ h3{
     ul{
         list-style-type: none;
     }
+
+    
+@media screen and (max-width: 992px) {
+    body {
+    background-color: rgb(133, 133, 189);
+    color: rgb(121, 4, 72);
+    }
+    }
+    
+@media screen and (max-width: 600px) {
+    body {
+    background-color: rgb(223, 223, 132);
+    color: rgb(34, 134, 143);
+    }
+    }
+
+    
+
+
