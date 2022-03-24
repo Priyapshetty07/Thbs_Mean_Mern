@@ -102,3 +102,8 @@ dist
 
 # TernJS port file
 .tern-port
+
+/font_style/awesome/fontawesome/less/*
+/font_style/awesome/fontawesome/svgs/*
+/font_style/awesome/fontawesome/scss/*
+/font_style/awesome/fontawesome/sprites/*
