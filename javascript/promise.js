@@ -1,7 +1,7 @@
 let thbs = new Promise((resolve, reject) => {
      setTimeout(() => {   //settimeout -- function and 20000
          resolve('this');
-         reject('this');
+        //  reject('this');
      },20000);
 });
 
