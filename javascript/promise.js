@@ -6,8 +6,9 @@ let thbs = new Promise((resolve, reject) => {
 });
 
 //callback function 
-thbs.then((success) => {
-    console.log(`resolve---success--callback function of promise ${success}`); //output
+thbs
+    .then((success) => {
+         console.log(`resolve---success--callback function of promise ${success}`); //output
 },
 (error) => {
     console.log(`reject--error--callback function of promise ${error}`);
