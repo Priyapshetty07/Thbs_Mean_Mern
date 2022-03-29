@@ -1,0 +1,37 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>promise_image_load</title>
+</head>
+
+<body>
+    <script>
+        let loadimage = new Promise((resolve, reject) => {
+
+        })
+
+
+        loadimage
+        .then(
+            (sucess) => {
+                console.log(`sucess coming from loadimage`);
+            }
+            ,
+            (error) => {
+                console.log(`error coming from loadimage`);
+            }
+
+        );
+
+        let body = document.getElementsByTagName('body');
+        let img = document.createElement('img');
+        img.src = "hello.jpg"
+        body.append(img);
+
+    </script>
+</body>
+
+</html>
