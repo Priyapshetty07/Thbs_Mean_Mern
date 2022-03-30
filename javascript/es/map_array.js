@@ -1,10 +1,10 @@
 
 let hobbies = [
-    {name:'priya', skills:['driving','reading','painting','rideing','danceing'] },
-    {name:'shubagini', skills:['reading','painting','danceing','cooking'] },
-    {name:'chaitali', skills:['cooking','danceing','painting'] },
-    {name:'shashank', skills:['driving','rideing'] },
-    {name:'chethan', skills:['rideing'] }
+    {name:'Priya', skills:['driving','reading','painting','riding','danceing'] },
+    {name:'Shubagini', skills:['reading','painting','danceing','cooking'] },
+    {name:'Chaitali', skills:['cooking','danceing','painting'] },
+    {name:'shashank', skills:['driving','riding'] },
+    {name:'chethan', skills:['riding'] }
 ];
 
 let mappedHobbies = hobbies.map((val,index,array) =>{
