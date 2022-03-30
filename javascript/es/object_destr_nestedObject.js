@@ -31,7 +31,7 @@ let userName = {
 // let{name, age, phone, location:{current:{city,area}}}=userName;
 //   console.log(name,age,phone,city,area);
 
-let{name, age, phone, 
+let{name, age, phone,  //renaming  city->cuurentcity
     location:{current:{city:cuurentcity,area}},
     location:{permanent:{city:permanentcity,pincode}} }=userName;
 
