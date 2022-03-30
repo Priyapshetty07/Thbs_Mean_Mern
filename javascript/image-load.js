@@ -42,7 +42,7 @@ loadImage('https://mdn.github.io/js-examples/promises-test/myLittleVader.jpg')
             addImagesToBody(sucess);
         }
         ,
-        (error) => {
+        (er ror) => {
             console.log(`error coming from loadimage`);
         }
 
